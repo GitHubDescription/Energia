@@ -1,0 +1,43 @@
+0101E0013 energia
+
+[A] = Assigned and under development
+[X] = Completed
+[ ] = Unassigned and needs an owner
+
+-= Higest priority first =-
+
+[ ] 
+    [ ] OS X serial driver bug
+    [X] mspdebug compatibility with windows TI LaunchPad drivers
+ 
+@ Core functionality
+	Time
+		[X] micros()
+
+	Advanced I/O
+		[X] tone()
+		[X] noTone()
+	
+	Random Numbers
+		[X] randomSeed()
+		[X] random()
+
+
+@ Libraries
+	Follow Arduino/Wiring API's if a Library exists
+	- http://arduino.cc/en/Reference/Libraries
+	- http://arduino.cc/playground/Main/LibraryList
+	- http://www.pjrc.com/teensy/td_libs.html
+	[X] USCI I2C master/slave
+	[ ] USI I2C slave
+	[X] SPI support (needs testing)
+	[X] IRremote
+	[ ] CapTouch API (see #39)
+	[A] CC110L Air Module Booster Pack Library (see #80)
+
+@ Documentation
+    [X] Know issues list (https://github.com/energia/Energia/wiki/Know-Issues)
+    [X] Bug fix / new feature review process
+    [ ] Incompatibilities
+    [X] Coding Style Guide
+
